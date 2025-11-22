@@ -9,8 +9,8 @@ This repository provides a synthetic dataset designed to support research and de
 - `sim_swap_fraud_dataset_100000.csv`  
   Contains 100,000 synthetic records with features relevant to SIM swap detection.
 
-- `data_generator.py`  
-  Python script used to generate the synthetic dataset, including fraud scoring logic.
+- `sim_swap_fraud_dataset_50000.csv`  
+  Contains 50,000 synthetic records with features relevant to SIM swap detection.
 
 ---
 
@@ -42,13 +42,3 @@ The `sim_swap_flag` is computed using a weighted combination of:
 - SIM change urgency
 - Behavioral risk signals (recent SIM activation, multiple swaps, IP change)
 
-All logic is encapsulated in `data_generator.py`.
-
----
-
-## Usage
-
-Clone the repo and run the generator:
-
-```bash
-python data_generator.py
