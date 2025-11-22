@@ -4,7 +4,7 @@ This repository provides a synthetic dataset designed to support research and de
 
 ---
 
-## 📁 Files
+## Files
 
 - `sim_swap_fraud_dataset_100000.csv`  
   Contains 100,000 synthetic records with features relevant to SIM swap detection.
@@ -14,7 +14,7 @@ This repository provides a synthetic dataset designed to support research and de
 
 ---
 
-## 📊 Dataset Features
+## Dataset Features
 
 | Feature Name                          | Description |
 |--------------------------------------|-------------|
@@ -33,7 +33,7 @@ This repository provides a synthetic dataset designed to support research and de
 
 ---
 
-## 🧠 Fraud Scoring Logic
+## Fraud Scoring Logic
 
 The `sim_swap_flag` is computed using a weighted combination of:
 
@@ -46,7 +46,7 @@ All logic is encapsulated in `data_generator.py`.
 
 ---
 
-## 📌 Usage
+## Usage
 
 Clone the repo and run the generator:
 
